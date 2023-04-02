@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEEA805F"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/skore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pc:0 Siz:0"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/pcfoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="80dp"
+            android:background="@drawable/img"
+            android:contentDescription="TODO" />
+
+
+        <ImageView
+            android:id="@+id/sizfoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:background="@drawable/img" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/tas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Taş"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+
+            <Button
+                android:id="@+id/makas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Makas"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+
+            <Button
+                android:id="@+id/kagit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Kağıt"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
